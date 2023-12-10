@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+:root{
+    --hover:rgba(198, 198, 198, 0.334);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+nav{
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.gmail:hover,.images:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.svg1{
+    margin:0 3px;
+    height:42px;
+    width: 42px;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.svg1:hover{
+    background-color:  var(--hover);
+    cursor: pointer;
+}
+.svg1>svg{
+    height: 35px;
+}
+
+nav>div{
+    margin:0 10px;
+}
+
+.dp{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 4px;
+    border-radius: 45px;
+}
+
+.dp:hover{
+    background-color: var(--hover);
+    cursor: pointer;
+}
+
+nav>.dp>img{
+    outline: 0.2px solid rgb(165, 165, 165);
+    height: 35px;
+    border-radius: 90px;
+}
+.dots{
+    height: 30px;
+}
+
+main{
+    height: 80vh;
+}
+
+.google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.google img{
+    height: 95px;
+    padding: 55px 0 29px 0;
+}
+
+.google input{
+    height: 40px;
+    width: 600px;
+    border-radius: 100px;
+    border:1px solid  rgb(193, 193, 193);
+    outline: none;
+    padding:0 55px;
+}
+
+.google input:hover{
+    box-shadow: 0 0 6px 0px #767676;
+}
+
+main .icons>svg{
+    height: 24px;
+}
+.glass{
+    position: relative;
+    left: -240px;
+    top: -31px;
+}
+.mic{
+    position: relative;
+    left: 255px;
+    top: -33px;
+    cursor:pointer;
+}
+.lens{
+    position: relative;
+    left: 252px;
+    top: -33px;
+    cursor:pointer;
+}
+
+.text{
+    display: flex;
+}
+.text p{
+    margin:0 20px;
+    padding:5px 20px;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+.text p:hover{
+    outline:1.5px solid #dcd0d0;
+}
+
+.font{
+    margin: 30px;
+}
+.font span{
+    margin:0 5px;
+    color: blue;
+    cursor: pointer;
+}
+.font span:hover{
+    text-decoration:underline;
+}
+
+.footer1{
+    height: 5.56vh;
+    background-color: #f4f4f4;
+    outline: 1px solid #dcd0d0;
+}
+.footer1 span{
+    margin: 0 17px;
+}
+
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+ul{
+    list-style-type: none;
+}
+.left,.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.left li,.right li{
+    margin: 0 17px;
+}
+.left li:hover,.right li:hover{
+    text-decoration: underline;
+}
